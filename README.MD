@@ -1,4 +1,4 @@
-# Project 01 实验项目
+# Project 01 实验项目-新闻人物言论自动提取
 
 LTP 手册([https://ltp.readthedocs.io/zh_CN/latest/](https://ltp.readthedocs.io/zh_CN/latest/))
 
@@ -6,9 +6,9 @@ LTP 手册([https://ltp.readthedocs.io/zh_CN/latest/](https://ltp.readthedocs.io
 
 ✔ 获取数据
 
-⬜ 获取所有表示说的意思的单词
+✔ 获取所有表示说的意思的单词
 
-⬜ 使用NER、Dependency Parsing等方式对句子进行解析
+✔ 使用NER、Dependency Parsing等方式对句子进行解析
 
 ⬜ 确定言论的结束
 
