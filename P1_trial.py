@@ -1,3 +1,12 @@
-from pyltp import SentenceSplitter
-sents = SentenceSplitter.split('元芳你怎么看？我就趴窗口上看呗！')  # 分句
-print('\n'.join(sents))
+from flask import Flask
+app = Flask(__name__)
+
+
+@app.route('/')
+@app.route('/index')
+def hello_world():
+    return 'Hello, World!'
+
+
+if __name__ == '__main__':
+    app.run()
